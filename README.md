@@ -2,7 +2,7 @@
 
 # Hi 👋 I'm Prachi Tripathi
 
-### Full-Stack Developer • Data Science Postgraduate • AI Product Builder
+### Full-Stack Developer • Computer Science Graduate • AI Product Builder
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=1000&center=true&vCenter=true&width=700&lines=Building+Scalable+Web+Applications;Creating+AI-Powered+Products;React+%7C+JavaScript+%7C+Python+%7C+PostgreSQL;Always+Learning+and+Shipping+Projects" alt="Typing SVG" />
 
@@ -183,42 +183,20 @@ Current Focus:
   - SaaS Architecture
 ```
 
----
-
-# 📊 GitHub Analytics
-
-<div align="center">
-
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=prachi2416&show_icons=true&theme=tokyonight&hide_border=true" />
-
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true" />
-
-</div>
-
----
-
 # 📈 Contribution Graph
 
 [![Prachi Tripathi's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=prachi2416&theme=tokyo-night)](https://github.com/prachi2416)
 
 ---
 
-# 🎯 2025 Goals
+# 🎯 Professional Focus
 
-- Launch DocMind 🚀
-- Launch LedgerBox 🚀
-- Contribute to Open Source
-- Deepen AI & Data Science expertise
-- Master System Design
-- Build impactful SaaS products
+- Building scalable full-stack applications and intelligent systems
+- Advancing expertise in Data Science, Artificial Intelligence, and Machine Learning
+- Strengthening skills in System Design, Software Architecture, and Database Engineering
+- Developing secure, high-performance, and user-focused digital products
+- Contributing to collaborative and open-source software initiatives
+- Continuously learning and applying emerging technologies to solve real-world challenges
 
 ---
 
