@@ -1,228 +1,131 @@
 <div align="center">
 
-# Hi 👋 I'm Prachi Tripathi
+# Prachi Tripathi
 
-### Full-Stack Developer • Computer Science Graduate • AI Product Builder
+**Software Engineer — Full-Stack Development & Applied Machine Learning**
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=1000&center=true&vCenter=true&width=700&lines=Building+Scalable+Web+Applications;Creating+AI-Powered+Products;React+%7C+JavaScript+%7C+Python+%7C+PostgreSQL;Always+Learning+and+Shipping+Projects" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1200&color=2E86AB&center=true&vCenter=true&width=650&lines=Full-Stack+Developer+%7C+Applied+ML;Building+production-grade+software;React+%7C+Node.js+%7C+Python+%7C+PostgreSQL" alt="Typing SVG" />
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prachi-tripathi-24r16)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/prachi2416)
 
 </div>
 
----
+<br>
 
-## 🚀 About Me
+## About
 
-I'm a **Full-Stack Developer** with a strong foundation in software engineering, database systems, and modern web technologies.
+I build products end-to-end — schema design, backend, frontend, and deployment — with a growing focus on applying machine learning to real workflows. My projects span React/Node applications, PostgreSQL systems with row-level security, and CI/CD-deployed platforms.
 
-After completing my **Bachelor's in Computer Science (CGPA: 8.91/10)**, I began pursuing a **Master's in Data Science**, where I continue to deepen my expertise in analytics, intelligent systems, and data-driven applications.
+Currently deepening my foundation in applied ML and system design through an M.S. in Data Science, while building the two products below from the ground up.
 
-I enjoy building products from idea to deployment—designing user experiences, developing scalable backends, integrating databases, deploying applications, and continuously improving them based on real-world needs.
+<br>
 
-My focus lies at the intersection of:
+## Currently Building
 
-- Full-Stack Development
-- Data Science
-- Artificial Intelligence
-- SaaS Products
-- System Design
-- Database Engineering
+<table>
+<tr>
+<td width="50%" valign="top">
 
-I believe the best way to learn engineering is by **building real products that solve real problems.**
+**DocMind**
 
----
+AI-powered document intelligence platform — extracts structured knowledge from unstructured documents and generates context-aware summaries through an LLM-based pipeline.
 
-# 🔥 Currently Building
+`In active development`
 
-## 📄 DocMind
+</td>
+<td width="50%" valign="top">
 
-AI-powered document intelligence platform that helps users:
+**LedgerBox**
 
-- Analyze documents
-- Extract knowledge
-- Generate summaries
-- Improve productivity through AI
+Personal finance platform for budget planning, expense tracking, and financial analytics — turning raw transaction data into decisions.
 
----
+`In active development`
 
-## 💰 LedgerBox
+</td>
+</tr>
+</table>
 
-Modern finance management platform focused on:
+<br>
 
-- Budget planning
-- Expense tracking
-- Financial analytics
-- Personal finance insights
+## Tech Stack
 
----
+**Languages**
+<p><img src="https://skillicons.dev/icons?i=js,ts,python,java,kotlin,html,css" /></p>
 
-# 🛠 Tech Stack
+**Frontend**
+<p><img src="https://skillicons.dev/icons?i=react,tailwind,bootstrap,vite" /></p>
 
-## Languages
+**Backend & Data**
+<p><img src="https://skillicons.dev/icons?i=nodejs,postgres,firebase,supabase" /></p>
 
-<p>
-<img src="https://skillicons.dev/icons?i=js,ts,java,python,kotlin,html,css" />
-</p>
+**Tools & Platforms**
+<p><img src="https://skillicons.dev/icons?i=git,github,vscode,postman,vercel" /></p>
 
-## Frontend
+<br>
 
-<p>
-<img src="https://skillicons.dev/icons?i=react,tailwind,bootstrap,vite" />
-</p>
+## Featured Projects
 
-## Backend & Databases
+| Project | What it does | Stack |
+|---|---|---|
+| **Real Estate Platform** | Property marketplace with buy/rent listings, an approval workflow, and status tracking across buyer, seller, and admin roles. <!-- e.g. "X listings, Y roles" if you have real numbers --> | React.js · HTML · CSS |
+| **Finance AI Application** | Personal finance app for expense tracking, budgeting, and investment monitoring, backed by an analytics dashboard. <!-- e.g. active users, categories tracked --> | React.js · JavaScript · Supabase |
+| **ALT Life Foundation Website** | Production NGO platform: PostgreSQL on Supabase, Row-Level Security for data access control, and a CI/CD pipeline to cloud deployment. | React · TypeScript · PostgreSQL · Supabase |
+| **LocalServe** | Three-sided service marketplace (customers, vendors, admins) with full request-lifecycle management and workflow automation. | React · Bootstrap |
 
-<p>
-<img src="https://skillicons.dev/icons?i=nodejs,postgres,firebase,supabase" />
-</p>
+<br>
 
-## Tools & Platforms
+## GitHub Activity
 
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,vercel" />
-</p>
+<div align="center">
 
----
+<img src="https://github-readme-stats.vercel.app/api?username=prachi2416&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" alt="GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prachi2416&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top languages" />
 
-# 🌟 Featured Projects
+<img src="https://streak-stats.demolab.com/?user=prachi2416&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 
-## 🏠 Real Estate Platform
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prachi2416/prachi2416/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prachi2416/prachi2416/output/github-snake.svg" />
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/prachi2416/prachi2416/output/github-snake.svg" />
+</picture>
 
-A complete real estate marketplace enabling users to:
+</div>
 
-- Browse properties
-- Buy & Rent listings
-- Manage approvals
-- Track property workflows
+<br>
 
-**Tech:** React.js • HTML • CSS
+## Certifications
 
----
+- JavaScript Full Stack Developer Certification
+- DSA Mastery with Java
+- JPMorgan Chase Software Engineering Virtual Experience Program
 
-## 💹 Finance AI Application
+<br>
 
-Personal finance platform designed for:
+## Education
 
-- Expense Tracking
-- Budget Management
-- Investment Monitoring
-- Analytics Dashboards
+**M.S., Data Science** — Thakur College of Science and Commerce · Expected 2028
+**B.Sc., Computer Science** — Thakur College of Science and Commerce · CGPA 8.91 / 10
 
-**Tech:** React.js • JavaScript • Supabase
+<br>
 
----
-
-## 🌍 ALT Life Foundation Website
-
-Production-ready NGO platform featuring:
-
-- PostgreSQL Backend
-- Supabase Integration
-- Row-Level Security
-- CI/CD Workflow
-- Cloud Deployment
-
-**Tech:** React • TypeScript • PostgreSQL • Supabase
-
----
-
-## 🛠 LocalServe
-
-Service Marketplace Platform supporting:
-
-- Customers
-- Vendors
-- Administrators
-
-Features include:
-
-- Request Lifecycle Management
-- Workflow Automation
-- Service Tracking
-
-**Tech:** React • Bootstrap
-
----
-
-# 📚 Education
-
-### 🎓 Master of Science (Data Science)
-
-Thakur College of Science and Commerce
-
-Expected Graduation: 2028
-
----
-
-### 🎓 Bachelor of Science (Computer Science)
-
-Thakur College of Science and Commerce
-
-CGPA: **8.91 / 10**
-
----
-
-# 🏆 Certifications
-
-✔ JavaScript Full Stack Developer Certification
-
-✔ DSA Mastery with Java
-
-✔ JPMorgan Chase Software Engineering Virtual Experience Program
-
----
-
-# 📈 What I'm Learning
+## Currently Exploring
 
 ```yaml
-Current Focus:
-  - Machine Learning
-  - Artificial Intelligence
+focus:
+  - Machine Learning & Applied AI
   - System Design
   - Advanced SQL
-  - Cloud Technologies
-  - SaaS Architecture
+  - Cloud Deployment & SaaS Architecture
 ```
 
-# 📈 Contribution Graph
-
-[![Prachi Tripathi's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=prachi2416&theme=tokyo-night)](https://github.com/prachi2416)
-
----
-
-# 🎯 Professional Focus
-
-- Building scalable full-stack applications and intelligent systems
-- Advancing expertise in Data Science, Artificial Intelligence, and Machine Learning
-- Strengthening skills in System Design, Software Architecture, and Database Engineering
-- Developing secure, high-performance, and user-focused digital products
-- Contributing to collaborative and open-source software initiatives
-- Continuously learning and applying emerging technologies to solve real-world challenges
-
----
-
-# 🤝 Let's Connect
-
-<p align="center">
-<a href="www.linkedin.com/in/prachi-tripathi-24r16">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-</p>
-
----
+<br>
 
 <div align="center">
 
-### 💡 Philosophy
+## Connect
 
-> "Great software isn't measured by lines of code—it's measured by the problems it solves."
-
-</div>
-
----
-
-<div align="center">
-
-⭐ If you like my work, feel free to explore my repositories and connect with me.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prachi-tripathi-24r16)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prachi2416)
 
 </div>
