@@ -105,6 +105,7 @@ Personal finance platform for budget planning, expense tracking, and financial a
 ## Education
 
 **M.S., Data Science** — Thakur College of Science and Commerce · Expected 2028
+
 **B.Sc., Computer Science** — Thakur College of Science and Commerce · CGPA 8.91 / 10
 
 <br>
