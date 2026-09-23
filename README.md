@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E86AB,100:1B4965&height=180&section=header&text=Prachi%20Tripathi&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Software%20Engineer%20%E2%80%94%20Full-Stack%20and%20Applied%20ML&descAlignY=62&descSize=18" alt="Header banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E86AB,100:1B4965&height=180&section=header&text=Prachi%20Tripathi&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Software%20Engineer%20%E2%80%94%20Full-Stack%20and%20Applied%20ML&descAlignY=69&descSize=18" alt="Header banner" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1200&color=2E86AB&center=true&vCenter=true&width=650&lines=Full-Stack+Developer+%7C+Applied+ML;Building+production-grade+software;React+%7C+Node.js+%7C+Python+%7C+PostgreSQL" alt="Typing SVG" />
 
