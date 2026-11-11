@@ -13,7 +13,7 @@
 
 ## About
 
-I build products end-to-end — schema design, backend, frontend, and deployment — with a growing focus on applying machine learning to real workflows. My recent projects dig into the kind of engineering that's easy to skip in a portfolio: concurrency-safe rate limiting, locally-run RAG pipelines, and role-based multi-tenant systems.
+I build products end to end schema design, backend, frontend, and deployment with a growing focus on applying machine learning to real workflows. My recent projects dig into the kind of engineering that's easy to skip in a portfolio: concurrency-safe rate limiting, locally-run RAG pipelines, and role-based multi-tenant systems.
 
 Currently deepening my foundation in applied ML and system design through an M.S. in Data Science.
 
