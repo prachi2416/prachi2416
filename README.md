@@ -21,7 +21,7 @@ Currently deepening my foundation in applied ML and system design through an M.S
 
 ## Flagship Projects
 
-### GateKeeper — Redis-Backed API Gateway & Rate Limiter
+### GateKeeper — Redis Backed API Gateway & Rate Limiter
 Implements three rate-limiting algorithms from first principles as atomic Lua scripts, eliminating the read-check-write race condition that lets concurrent requests bypass a naive limiter.
 - Token Bucket, Sliding Window Log, and Sliding Window Counter — algorithm selectable per client
 - Every state transition is a single atomic Lua script executed inside Redis — no TOCTOU races under concurrent load
