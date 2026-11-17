@@ -13,7 +13,7 @@
 
 ## About
 
-I build products end to end schema design, backend, frontend, and deployment with a growing focus on applying machine learning to real workflows. My recent projects dig into the kind of engineering that's easy to skip in a portfolio: concurrency-safe rate limiting, locally-run RAG pipelines, and role-based multi-tenant systems.
+I build products end to end schema design, backend, frontend, and deployment with a growing focus on applying machine learning to real workflows. My recent projects dig into the kind of engineering that's easy to skip in a portfolio: concurrency safe rate limiting, locally-run RAG pipelines, and role based multi-tenant systems.
 
 Currently deepening my foundation in applied ML and system design through an M.S. in Data Science.
 
@@ -22,7 +22,7 @@ Currently deepening my foundation in applied ML and system design through an M.S
 ## Flagship Projects
 
 ### GateKeeper — Redis Backed API Gateway & Rate Limiter
-Implements three rate-limiting algorithms from first principles as atomic Lua scripts, eliminating the read-check-write race condition that lets concurrent requests bypass a naive limiter.
+Implements three rate limiting algorithms from first principles as atomic Lua scripts, eliminating the read-check-write race condition that lets concurrent requests bypass a naive limiter.
 - Token Bucket, Sliding Window Log, and Sliding Window Counter — algorithm selectable per client
 - Every state transition is a single atomic Lua script executed inside Redis — no TOCTOU races under concurrent load
 - Fails closed (503) if Redis is unreachable, instead of silently letting all traffic through
