@@ -1,115 +1,201 @@
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E86AB,100:1B4965&height=180&section=header&text=Prachi%20Tripathi&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Software%20Engineer%20%E2%80%94%20Full-Stack%20and%20Applied%20ML&descAlignY=69&descSize=18" alt="Header banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030712,35:08152E,70:102A50,100:1D4ED8&height=250&section=header&text=PRACHI%20TRIPATHI&fontSize=52&fontColor=FFFFFF&fontAlignY=38&desc=SOFTWARE%20ENGINEER%20%7C%20FULL-STACK%20DEVELOPER%20%7C%20APPLIED%20AI&descAlignY=60&descSize=14&animation=fadeIn" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1200&color=2E86AB&center=true&vCenter=true&width=650&lines=Full-Stack+Developer+%7C+Applied+ML;Building+production-grade+software;React+%7C+Node.js+%7C+Python+%7C+PostgreSQL" alt="Typing SVG" />
+<br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prachi-tripathi-24r16)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/prachi2416)
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3000&pause=1000&color=60A5FA&center=true&vCenter=true&width=800&lines=Building+Scalable+Software+Systems;Engineering+Reliable+Backend+Architectures;Developing+Intelligent+AI+Applications;Turning+Ideas+Into+Production-Ready+Products" />
+
+<br/><br/>
+
+<a href="https://www.linkedin.com/in/prachi-tripathi-24r16">
+<img src="https://img.shields.io/badge/CONNECT%20ON-LINKEDIN-1D4ED8?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/FIELD-Full--Stack%20Engineering-102A50?style=flat-square&labelColor=030712" />
+<img src="https://img.shields.io/badge/INTEREST-Applied%20AI-102A50?style=flat-square&labelColor=030712" />
+<img src="https://img.shields.io/badge/FOCUS-System%20Design-102A50?style=flat-square&labelColor=030712" />
 
 </div>
 
-<br>
+---
 
-## About
+## ✦ ABOUT ME
 
-I build products end to end schema design, backend, frontend, and deployment with a growing focus on applying machine learning to real workflows. My recent projects dig into the kind of engineering that's easy to skip in a portfolio: concurrency safe rate limiting, locally-run RAG pipelines, and role based multi-tenant systems.
+I'm **Prachi Tripathi**, a Software Engineer and Full-Stack Developer passionate about building scalable applications, engineering reliable backend systems, and applying intelligent technologies to real-world problems.
 
-Currently deepening my foundation in applied ML and system design through an M.S. in Data Science.
+I enjoy developing products end to end — from database architecture and API development to frontend experiences, integrations, deployment, and optimization.
 
-<br>
+**Areas of engineering interest**
 
-## Flagship Projects
+- ✦ **Backend Engineering** — Distributed systems, concurrency-safe applications, API architecture, and rate limiting.
+- ✦ **Applied Artificial Intelligence** — Local LLMs, Retrieval-Augmented Generation, and intelligent applications.
+- ✦ **Software Architecture** — Multi-tenant systems, role-based access control, and maintainable application design.
+- ✦ **Data Engineering** — Advanced SQL, database optimization, and data-driven solutions.
 
-### GateKeeper — Redis Backed API Gateway & Rate Limiter
-Implements three rate limiting algorithms from first principles as atomic Lua scripts, eliminating the read-check-write race condition that lets concurrent requests bypass a naive limiter.
-- Token Bucket, Sliding Window Log, and Sliding Window Counter — algorithm selectable per client
-- Every state transition is a single atomic Lua script executed inside Redis — no TOCTOU races under concurrent load
-- Fails closed (503) if Redis is unreachable, instead of silently letting all traffic through
-- 11/11 tests passing; k6 burst/sustained-load scripts validate correctness under real concurrency, not just sequential calls
+Currently pursuing an **M.S. in Data Science**, strengthening my foundations in Machine Learning, Applied AI, and System Design.
 
-**Stack:** Node.js · Express · Redis · Lua · React · TypeScript · Docker
+---
 
-### DocMind — Fully Local RAG Platform for Document Intelligence
-A two-tier Retrieval-Augmented Generation system where embeddings and inference run entirely on local infrastructure — no document content ever leaves the machine.
-- Full ingestion → chunk → embed → store → retrieve → generate pipeline via ChromaDB (vector store) and Ollama (local LLM)
-- Node.js serverless API layer separated from a stateful Python/FastAPI RAG engine — the same app/inference split used in production ML systems
-- Dedicated Evaluation and Monitoring pages, so retrieval quality and system health are visible, not just assumed
+## ✦ FEATURED PROJECTS
 
-**Stack:** Python · FastAPI · ChromaDB · Ollama · React · TypeScript · Supabase · Docker · Vercel
+### 01. GateKeeper
+**Redis-Backed API Gateway & Rate Limiting System**
 
-### LedgerBox — Multi-Tenant Financial Management Platform
-A SaaS-style platform for expense, invoice, and team management with role-based access control enforced across owner/admin/member roles.
-- Multi-organization support with org switching and persisted active-org state
-- RBAC permission logic isolated into reusable helpers rather than scattered across UI components
-- Type-safe throughout; data layer explicitly architected to swap local storage for Supabase/PostgreSQL with minimal changes
+A concurrency-safe API rate-limiting system implementing multiple algorithms from first principles.
 
-**Stack:** React 18 · TypeScript · Vite · Zustand · TanStack Query · Tailwind CSS · Recharts
+**Engineering Highlights**
 
-<br>
+- Implemented Token Bucket, Sliding Window Log, and Sliding Window Counter algorithms.
+- Used atomic Redis Lua scripts to eliminate race conditions and TOCTOU vulnerabilities.
+- Designed fail-closed behavior with HTTP 503 responses when Redis is unavailable.
+- Achieved **11/11 passing tests**, supported by k6 burst and sustained-load testing.
 
-## Tech Stack
+**Technology Stack**
 
-**Languages**
-<p><img src="https://skillicons.dev/icons?i=js,ts,python,java,kotlin,html,css" /></p>
+`Node.js` `Express` `Redis` `Lua` `React` `TypeScript` `Docker`
 
-**Frontend**
-<p><img src="https://skillicons.dev/icons?i=react,tailwind,bootstrap,vite" /></p>
+---
 
-**Backend & Data**
-<p><img src="https://skillicons.dev/icons?i=nodejs,postgres,redis,firebase,supabase" /></p>
+### 02. DocMind
+**Privacy-First, Fully Local RAG Platform**
 
-**Tools & Platforms**
-<p><img src="https://skillicons.dev/icons?i=git,github,docker,vscode,postman,vercel" /></p>
+A document intelligence platform built around a locally executed Retrieval-Augmented Generation pipeline.
 
-<br>
+**Engineering Highlights**
 
-## Other Projects
+- Developed document ingestion, chunking, embedding, retrieval, and generation workflows.
+- Integrated ChromaDB for vector storage and Ollama for local LLM inference.
+- Separated the Node.js API layer from the Python/FastAPI inference engine.
+- Built dedicated evaluation and monitoring dashboards.
 
-| Project | What it does | Stack |
-|---|---|---|
-| **Real Estate Platform** | Property marketplace with buy/rent listings, an approval workflow, and status tracking across buyer, seller, and admin roles. | React.js · HTML · CSS |
-| **Finance AI Application** | Personal finance app for expense tracking, budgeting, and investment monitoring, backed by an analytics dashboard. | React.js · JavaScript · Supabase |
-| **ALT Life Foundation Website** | Production NGO platform: PostgreSQL on Supabase, Row-Level Security for data access control, and a CI/CD pipeline to cloud deployment. | React · TypeScript · PostgreSQL · Supabase |
-| **LocalServe** | Three-sided service marketplace (customers, vendors, admins) with full request-lifecycle management and workflow automation. | React · Bootstrap |
+**Technology Stack**
 
-<br>
+`Python` `FastAPI` `ChromaDB` `Ollama` `React` `TypeScript` `Supabase` `Docker` `Vercel`
 
-## Certifications
+---
+
+### 03. LedgerBox
+**Multi-Tenant Financial Management Platform**
+
+A SaaS-oriented financial management application designed around organization-level access and reusable authorization logic.
+
+**Engineering Highlights**
+
+- Implemented multi-organization support and persistent organization switching.
+- Designed role-based access control for Owner, Admin, and Member roles.
+- Centralized authorization into reusable permission helpers.
+- Developed a type-safe data layer designed for migration to Supabase/PostgreSQL.
+
+**Technology Stack**
+
+`React 18` `TypeScript` `Vite` `Zustand` `TanStack Query` `Tailwind CSS` `Recharts`
+
+---
+
+## ✦ OTHER PROJECTS
+
+| Project | Description | Technologies |
+|:--|:--|:--|
+| **ALT Life Foundation** | Production NGO platform with PostgreSQL, Supabase RLS, and CI/CD | React, TypeScript, PostgreSQL, Supabase |
+| **Finance AI Application** | Personal finance application for expense tracking, budgeting, and financial insights | React, JavaScript, Supabase |
+| **Real Estate Platform** | Property marketplace with listings, approval workflows, and role-based dashboards | React, HTML, CSS |
+| **LocalServe** | Three-sided marketplace supporting customer, vendor, and admin workflows | React, Bootstrap |
+
+---
+
+## ✦ TECHNICAL EXPERTISE
+
+**Programming Languages**
+
+<p>
+<img src="https://skillicons.dev/icons?i=js,ts,python,java,kotlin,html,css&theme=dark" />
+</p>
+
+**Frontend Development**
+
+<p>
+<img src="https://skillicons.dev/icons?i=react,tailwind,bootstrap,vite&theme=dark" />
+</p>
+
+**Backend & Databases**
+
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express,postgres,redis,firebase,supabase&theme=dark" />
+</p>
+
+**Developer Tools & Platforms**
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,docker,vscode,postman,vercel&theme=dark" />
+</p>
+
+---
+
+## ✦ CERTIFICATIONS
 
 - JavaScript Full Stack Developer Certification
 - DSA Mastery with Java
 - JPMorgan Chase Software Engineering Virtual Experience Program
 
-<br>
+---
 
-## Education
+## ✦ EDUCATION
 
-**M.S., Data Science** — Thakur College of Science and Commerce · Expected 2028
+**Master of Science — Data Science**
 
-**B.Sc., Computer Science** — Thakur College of Science and Commerce · CGPA 8.91 / 10
+Thakur College of Science and Commerce  
+Expected Graduation: 2028
 
-<br>
+<br/>
 
-## Currently Exploring
+**Bachelor of Science — Computer Science**
+
+Thakur College of Science and Commerce  
+CGPA: **8.91 / 10**
+
+---
+
+## ✦ CURRENTLY EXPLORING
 
 ```yaml
-focus:
+current_learning:
   - Machine Learning & Applied AI
-  - System Design
-  - Advanced SQL
+  - Retrieval-Augmented Generation
+  - System Design & Distributed Systems
+  - Advanced SQL & Database Optimization
   - Cloud Deployment & SaaS Architecture
+
+engineering_interests:
+  - Scalable Backend Architecture
+  - Reliable Distributed Applications
+  - Production-Ready AI Systems
+  - Clean and Maintainable Software
 ```
 
-<br>
+---
+
+## ✦ LET'S CONNECT
 
 <div align="center">
 
-## Connect
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=3000&pause=1200&color=60A5FA&center=true&vCenter=true&width=700&lines=Engineering+with+purpose.;Learning+with+curiosity.;Building+technology+that+matters." />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prachi-tripathi-24r16)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prachi2416)
+<br/><br/>
+
+<a href="https://www.linkedin.com/in/prachi-tripathi-24r16">
+<img src="https://img.shields.io/badge/LET'S%20CONNECT-LINKEDIN-1D4ED8?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<br/><br/>
+
+**Open to meaningful collaborations, engineering discussions, and opportunities to build impactful software.**
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1D4ED8,40:102A50,75:08152E,100:030712&height=150&section=footer" width="100%" />
 
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1B4965,100:2E86AB&height=100&section=footer" alt="Footer banner" />
